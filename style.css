@@ -1,0 +1,130 @@
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    margin:15px 50px;
+    padding:0;
+    background-color:#1F1F1F;
+    color:white;
+
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding:0 20px;
+    
+
+}
+h1{
+    font-size:30px;
+}
+div>input, div>button{
+    background-color: rgba(38, 38, 38, 1);
+    padding:10px 20px;
+    border-radius:10px;
+    font-size:18px
+ 
+}
+nav>div {
+    width:70%;
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+nav input{
+    flex-grow:1;
+    color:rgba(255, 255, 255, 0.2);
+}
+nav button{
+    color:white;
+}
+h2{
+    padding:0 20px;
+}
+.header-container{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 20px;
+    font-size:18px;
+}
+.header-section{
+    background-color:#262626;
+    padding:20px;
+    margin:20px;
+    border-radius:20px;
+}
+.small-img{
+    width:70px;
+}
+.big-img{
+    width:200px;
+}
+.cart{
+    display:flex;
+    gap:10px;
+    padding:10px;
+    align-items:center;
+    color: rgba(196, 196, 196, 1);
+}
+.right-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.right-container>button{
+    color:black;
+    background-color:rgba(254, 203, 3, 1);
+}
+.main{
+    /* border:2px solid red; */
+    margin:20px 25px
+}
+.categery{
+    /* border:2px solid blue; */
+    display:flex;
+    flex-flow:row wrap;
+    padding:10px;
+    margin-top:20px;
+    gap:12px;
+    
+}
+.card{
+    color:rgba(196, 196, 196, 1);
+    border:3px solid rgba(38, 38, 38, 1);
+    width:30%;
+    padding:10px;
+    margin-top:10px;
+    border-radius:10px;
+    position:relative;
+   padding-bottom:40px;
+}
+.card> .btn{
+    background-color:rgba(254, 203, 3, 1);
+    color:black;
+    position:absolute;
+    right:10px;
+    bottom:10px;
+
+}
+footer{
+    display:flex;
+    margin:30px 50px;
+    gap:30px;
+    justify-content: space-evenly;
+    /* justify-content:center; */
+    padding:10px;
+    border-radius:10px;
+    background-color:#262626;
+}
+footer>div{
+   
+    display:flex;
+    flex-direction:column;
+    
+}
+.ft a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 1);
+    ;
+    gap:4px;
+
+}
